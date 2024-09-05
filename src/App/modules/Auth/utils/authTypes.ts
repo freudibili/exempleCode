@@ -1,0 +1,7 @@
+import {NAVIGATION, TAB} from '../../../types/navigationTypes';
+
+export enum AUTH_DESTINATION_SCREEN {
+  PROFILE = TAB.USER_TAB,
+  MESSENGER = TAB.MESSENGER_TAB,
+  TROC_ITEM = NAVIGATION.TROC_ITEM_SCREEN,
+}
